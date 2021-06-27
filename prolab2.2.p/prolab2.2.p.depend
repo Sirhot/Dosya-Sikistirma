@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1589720887 source:c:\users\lenovo\desktop\prolab2.2.p\main.c
+	<stddef.h>
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+

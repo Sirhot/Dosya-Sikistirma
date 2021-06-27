@@ -1,0 +1,27 @@
+
+ SERHAT ÇUBUKÇUOĞLU    ENES TELLİ
+ 180201032             180201099
+
+Bu döküman, "Algoritmalar ile Dosya Sıkıştırma" projesine aittir.
+
+{{ İÇERİK }}
+1_180201032-180201099.txt :Projenin kaynak kodlarını içeren dosya.
+1_beniOku_180201032_180201099.txt :Proje hakkında içerik bilgisi veren ve programın çalışma sürecini anlatan dosya.
+1_180201032-180201099.zip :Projenin kaynak kodlarının zipte tutulmuş versiyonu.
+1_180201032_180201099.pdf:Proje hakkında rapor.
+
+
+{{ GERÇEKLEŞTİRİLEN PROGRAMIN ÇALIŞMA AŞAMALARI }}
+
+[1] 
+Projede algoritmaların özellikleri kodda tanımlı olduğundan kullanıcının "metin.txt" dosyası LZ77 ve DEFLATE algoritmaları uygulanarak
+çıktıları oluşturulur.
+
+[2]
+Oluşan çıktılar ise kodda boyutsal olarak karşılaştırıldıktan sonra kullanıcıya konsolda hangi algoritmanın kullanılması gerektiğini belirtir.
+
+{{ AÇIKLAMA }}
+-->Programdaki oluşturulan tokenler 2 byte'lık yer kaplamaktadır.Encode boyutları buna göre değerlendirilmelidir.
+-->Girdi olarak verilecek dosyanın "metin.txt" adlı olarak girilmesine dikkat edilmelidir.
+-->Eğer kullanıcı LZ77 algoritmasının arama ve ileri tampon boyutunu değiştirmek isterse - ve - satırlarında OFFSETMASK komutuna ve LENGTHSETMASK
+komutuna bit değerleri girerek performans değişimi gerçekleştirebilir.

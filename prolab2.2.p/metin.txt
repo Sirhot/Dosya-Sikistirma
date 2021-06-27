@@ -1,0 +1,1 @@
+Kosuyorlar goze carpan umut gidecekmis anlamsiz.Calisma mantigi en kolay anlasilabilecek siralama algoritmalarindan biridir. Performansi dusuk bir algoritmadir. Konuyu bir ornek uzerinde inceleyelim,
